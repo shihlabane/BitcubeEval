@@ -1,0 +1,15 @@
+﻿body 
+{
+    
+}
+#form ul 
+{
+   text-decoration:none;
+   list-style-type:none;
+}
+.gridview
+{
+    float:left;
+    padding: 3rem;
+   
+}

@@ -1,0 +1,4 @@
+c:\users\lenovo\documents\visual studio 2010\Projects\BitcubeEval\BitcubeEval\bin\BitcubeEval.dll
+c:\users\lenovo\documents\visual studio 2010\Projects\BitcubeEval\BitcubeEval\bin\BitcubeEval.pdb
+c:\users\lenovo\documents\visual studio 2010\Projects\BitcubeEval\BitcubeEval\obj\Debug\BitcubeEval.dll
+c:\users\lenovo\documents\visual studio 2010\Projects\BitcubeEval\BitcubeEval\obj\Debug\BitcubeEval.pdb
