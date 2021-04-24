@@ -10,7 +10,7 @@
 namespace BitcubeEval {
     
     
-    public partial class ViewDegree {
+    public partial class removeStudent {
         
         /// <summary>
         /// lbllecturerName control.
@@ -31,66 +31,30 @@ namespace BitcubeEval {
         protected global::System.Web.UI.WebControls.Label lbllecturerEmail;
         
         /// <summary>
-        /// btnViewDegree control.
+        /// txtdegree control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnViewDegree;
+        protected global::System.Web.UI.WebControls.TextBox txtdegree;
         
         /// <summary>
-        /// Panel1 control.
+        /// txtstudentEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel1;
+        protected global::System.Web.UI.WebControls.TextBox txtstudentEmail;
         
         /// <summary>
-        /// gvdDegree control.
+        /// BtnRemoveStudent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvdDegree;
-        
-        /// <summary>
-        /// Lbldegree control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Lbldegree;
-        
-        /// <summary>
-        /// TxtStudentEmail control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtStudentEmail;
-        
-        /// <summary>
-        /// btnstudent control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnstudent;
-        
-        /// <summary>
-        /// gvdCourse control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvdCourse;
+        protected global::System.Web.UI.WebControls.Button BtnRemoveStudent;
     }
 }

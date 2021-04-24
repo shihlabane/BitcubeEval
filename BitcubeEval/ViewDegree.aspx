@@ -18,8 +18,10 @@
 
         <br />
 
-   <div class="gridview">
-   <asp:GridView ID="gvdDegree" runat="server" AutoGenerateColumns="False" 
+  <div class="panel">
+     
+       <asp:Panel ID="Panel1" runat="server">
+          <asp:GridView ID="gvdDegree" runat="server" AutoGenerateColumns="False" 
            BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" 
            CellPadding="4" onselectedindexchanged="gvdDegree_SelectedIndexChanged">
        <Columns>
@@ -38,7 +40,21 @@
        <SortedAscendingHeaderStyle BackColor="#0D4AC4" />
        <SortedDescendingCellStyle BackColor="#D6DFDF" />
        <SortedDescendingHeaderStyle BackColor="#002876" />
-    </asp:GridView>
+       </asp:GridView>
+       </asp:Panel>
+      <br />
+       <asp:Label ID="Lbldegree" runat="server" ForeColor="Red"></asp:Label>
+       <br />
+       Enter Student Emaill Adress<asp:TextBox ID="TxtStudentEmail" runat="server" ></asp:TextBox>
+       <br />
+       <asp:Button ID="btnstudent" runat="server" onclick="btnstudent_Click" 
+           Text="Add Student" />
+       <br />
+       
+ 
+          
+</div>
+
    <asp:GridView ID="gvdCourse" runat="server" AutoGenerateColumns="False" 
            BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" 
            CellPadding="4">
@@ -57,6 +73,6 @@
        <SortedDescendingCellStyle BackColor="#D6DFDF" />
        <SortedDescendingHeaderStyle BackColor="#002876" />
     </asp:GridView>
-   </div>
+   
     
 </asp:Content>

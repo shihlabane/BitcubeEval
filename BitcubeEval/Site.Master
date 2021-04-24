@@ -25,6 +25,7 @@
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="View Student"/>
                         <asp:MenuItem NavigateUrl="~/ViewDegree.aspx" Text="View Degree"/>
                         <asp:MenuItem NavigateUrl="~/AddStudent.aspx" Text="Add Student"/>
+                        <asp:MenuItem NavigateUrl="~/removeStudent.aspx" Text="Remove Student"/>
                     </Items>
                 </asp:Menu>
             </div>

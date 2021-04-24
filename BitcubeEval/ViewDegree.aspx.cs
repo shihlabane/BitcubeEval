@@ -43,6 +43,8 @@ namespace BitcubeEval
         {
             GridViewRow selRow = gvdDegree.SelectedRow;
             string degreeName = selRow.Cells[1].Text;
+
+            Lbldegree.Text = degreeName.ToString();
             //checking if the select data is not null
             if (degreeName != "")
             {
@@ -67,6 +69,30 @@ namespace BitcubeEval
 
 
                 
+
+        }
+
+        protected void btnstudent_Click(object sender, EventArgs e)
+        {
+            SqlConnection sqlcon = new SqlConnection(connection);
+            sqlcon.Open();
+            string queryStrig = "INSERT INTO DEGREE(degreeName,degreeDurationInYear,emailAddress_Student,emailAddress_Lecturer) values(@degree,3,@Semail,@lemail)";
+            SqlCommand commond = new SqlCommand(queryStrig, sqlcon);
+            commond.Parameters.AddWithValue("@degree", Lbldegree.Text);
+            commond.Parameters.AddWithValue("@Semail", TxtStudentEmail.Text);
+            commond.Parameters.AddWithValue("@Lemail", lbllecturerEmail.Text);
+            int result = commond.ExecuteNonQuery();
+            sqlcon.Close();
+
+            //Checking if data was add successfully or not
+            if (result < 0)
+            {
+                Response.Write("<script language=javascript> alert('Student not add.')</script>");
+            }
+            else
+            {
+                Response.Write("<script language=javascript> alert('Student add succesfully')</script>");
+            }
 
         }
     }

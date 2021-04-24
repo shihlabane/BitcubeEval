@@ -23,7 +23,7 @@ namespace BitcubeEval
         {
             SqlConnection sqlcon = new SqlConnection(connection);
             sqlcon.Open();
-            string queryString = "INSERT INTO STUDENT VALUES(@forename,@surname,@email,@dateOfBirth)";
+            string queryString = "INSERT INTO STUDENT VALUES(@email,@forename,@surname,@dateOfBirth)";
             SqlCommand commnd = new SqlCommand(queryString, sqlcon);
             commnd.Parameters.AddWithValue("@email", TxtEmail.Text);
             commnd.Parameters.AddWithValue("@forename", Txtforename.Text);

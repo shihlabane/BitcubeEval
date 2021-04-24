@@ -2,3 +2,7 @@ c:\users\lenovo\documents\visual studio 2010\Projects\BitcubeEval\BitcubeEval\bi
 c:\users\lenovo\documents\visual studio 2010\Projects\BitcubeEval\BitcubeEval\bin\BitcubeEval.pdb
 c:\users\lenovo\documents\visual studio 2010\Projects\BitcubeEval\BitcubeEval\obj\Debug\BitcubeEval.dll
 c:\users\lenovo\documents\visual studio 2010\Projects\BitcubeEval\BitcubeEval\obj\Debug\BitcubeEval.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2010\Projects\test1\test1\BitcubeEval\BitcubeEval\obj\Debug\BitcubeEval.dll
+C:\Users\Lenovo\Documents\Visual Studio 2010\Projects\test1\test1\BitcubeEval\BitcubeEval\obj\Debug\BitcubeEval.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2010\Projects\test1\test1\BitcubeEval\BitcubeEval\bin\BitcubeEval.dll
+C:\Users\Lenovo\Documents\Visual Studio 2010\Projects\test1\test1\BitcubeEval\BitcubeEval\bin\BitcubeEval.pdb
