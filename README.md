@@ -1,1 +1,1 @@
-# BitcubeEval
+# Student Management
